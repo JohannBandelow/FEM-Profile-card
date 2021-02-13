@@ -1,0 +1,50 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  line-height: 1.3;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2d3248;
+  min-height: 300;
+  background-color: #19a2ae;
+}
+
+h1, h2, h3, p {
+  margin-top: 0;
+  line-height: 1.15;
+}
+
+h1 {
+  font-weight: 700;
+  color: #2d3248;
+  margin-bottom: 1.15rem;
+}
+
+h2 {
+  font-weight: 700;
+  color: #969696;
+  margin-bottom: 1.15;
+}
+
+h3 {
+  font-weight: 400;
+  color: #2d3248;
+}
+
+p {
+  font-weight: 400;
+  color: #969696;
+}
+/*# sourceMappingURL=style.css.map */
