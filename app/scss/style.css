@@ -43,7 +43,7 @@ h1 {
 
 h2 {
   font-weight: 700;
-  color: #969696;
+  color: #ababab;
   margin-bottom: 1.15;
 }
 
@@ -54,7 +54,7 @@ h3 {
 
 p {
   font-weight: 400;
-  color: #969696;
+  color: #ababab;
 }
 
 .container {
@@ -154,5 +154,34 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.profile span {
+  display: block;
+  width: 100%;
+  border-top: 1px solid #e3e3e3;
+}
+
+.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.stats .text {
+  padding: 2rem 1.5rem 0 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */

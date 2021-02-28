@@ -1,67 +1,83 @@
 .container {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    min-width: 100vw;
-    min-height: 100vh;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+  margin: 0;
+  border: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-    z-index: 5;
-    overflow: hidden;
-    background-color: white;
-    min-height: 50vh;
-    min-width: 30rem;
-    width: 40vw;
-    max-width: 480px;
-    border-radius: 18px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  overflow: hidden;
+  background-color: white;
+  min-height: 50vh;
+  min-width: 30rem;
+  width: 40vw;
+  max-width: 480px;
+  border-radius: 18px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 
-    .header {
-        height: 150px;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        justify-content: center;
-        width: 40vw;
-        min-width: 30rem;
-        max-width: 480px;
-        border-radius: 18px 18px 0 0;
-        background-image: url("/images/bg-pattern-card.svg");
-        margin-bottom: 75px;
-    
-        .picture {
-            border-radius: 50%;
-            border: solid white 3px;
-            width: 6rem;
-            position: relative;
-            top: 50px;
-        }
-    
+  .header {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 40vw;
+    min-width: 30rem;
+    max-width: 480px;
+    border-radius: 18px 18px 0 0;
+    background-image: url("/images/bg-pattern-card.svg");
+    margin-bottom: 75px;
+
+    .picture {
+      border-radius: 50%;
+      border: solid white 3px;
+      width: 6rem;
+      position: relative;
+      top: 50px;
     }
+  }
 }
 
 .profile {
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  .name {
     display: flex;
     align-items: center;
-    justify-content: top;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
-    border: 0;
+    padding-bottom: 2rem;
+  }
 
-    .name {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+  span {
+    display: block;
+    width: 100%;
+    border-top: 1px solid $lightGray;
+  }
 }
 
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+  text-align: center;
 
+  .text {
+    padding: 2rem 1.5rem 0 1.5rem;
+  }
+}
